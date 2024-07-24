@@ -1,0 +1,1 @@
+import{D as t}from"./index-11eb6111.js";const e="/hari-libur/tipe",a={index(){return t.get(e)},store(r){return t.post(e,r)},update(r,o){return t.patch(`${e}/${r}`,o)},show(r){return t.get(`${e}/${r}`)},destroy(r){return t.delete(`${e}/${r}`)}};export{a};

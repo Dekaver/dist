@@ -1,0 +1,1 @@
+import{D as r,G as t}from"./index-11eb6111.js";const n={index(e={}){return r.get("/permission?"+t.stringify(e))},store(e){return r.post("/permission/",e)},update(e,s){return r.patch("/permission/"+e,s)},show(e){return r.get("/permission/"+e)},destroy(e){return r.delete("/permission/"+e)},getParent(){return r.get("/permission/getParent")}};export{n as a};

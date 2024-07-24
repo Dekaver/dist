@@ -1,0 +1,1 @@
+import{D as s,G as r}from"./index-11eb6111.js";const o={index(e={}){return s.get(`/assembly?${r.stringify(e)}`)},option(){return s.get("/assembly/option")},store(e){return s.post("/assembly/",e)},update(e,t){return s.patch(`/assembly/${e}`,t)},show(e){return s.get(`/assembly/${e}`)},destroy(e){return s.delete(`/assembly/${e}`)}};export{o as a};

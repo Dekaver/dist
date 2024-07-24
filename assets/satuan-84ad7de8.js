@@ -1,0 +1,1 @@
+import{D as a}from"./index-11eb6111.js";const n={index(){return a.get("/satuan/")},store(t){return a.post("/satuan/",t)},update(t,e){return a.patch("/satuan/"+t,e)},show(t){return a.get("/sautan/"+t)},destroy(t){return a.delete("/satuan/"+t)}};export{n as a};

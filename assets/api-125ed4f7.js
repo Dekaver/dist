@@ -1,0 +1,1 @@
+import{D as e}from"./index-11eb6111.js";const t="/rencana-anggaran-biaya",o={index(){return e.get(t)},store(r){return e.post(t,r)},update(r,a){return e.patch(`${t}/${r}`,a)},show(r){return e.get(`${t}/${r}`)},destroy(r){return e.delete(`${t}/${r}`)}};export{o as a};

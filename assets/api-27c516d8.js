@@ -1,0 +1,1 @@
+import{D as p}from"./index-11eb6111.js";const o={index(){return p.get("/ptkp/")},store(t){return p.post("/ptkp/",t)},update(t,e){return p.patch("/ptkp/"+t,e)},show(t){return p.get("/ptkp/"+t)},destroy(t){return p.delete("/ptkp/"+t)}};export{o as a};

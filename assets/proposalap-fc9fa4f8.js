@@ -1,0 +1,1 @@
+import{D as a}from"./index-11eb6111.js";const t={index(){return a.get("/acc-proposal-ap/")},store(p){return a.post("/acc-proposal-ap/",p)},update(p,r){return a.patch("/acc-proposal-ap/"+p,r)},show(p){return a.get("/acc-proposal-ap/"+p)},destroy(p){return a.delete("/acc-proposal-ap/"+p)}};export{t as a};

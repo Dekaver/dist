@@ -1,0 +1,1 @@
+import{D as t}from"./index-11eb6111.js";const u={index(){return t.get("/menu/")},store(e){return t.post("/menu/",e)},update(e,r){return t.patch("/menu/"+e,r)},show(e){return t.get("/menu/"+e)},destroy(e){return t.delete("/menu/"+e)},getMenuChildByName(e){return t.get(`/menu/${e}/parent`)}};export{u as a};

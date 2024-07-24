@@ -1,0 +1,1 @@
+import{D as t}from"./index-11eb6111.js";const n={index(){return t.get("/absen-tempat/")},store(e){return t.post("/absen-tempat/",e)},update(e,a){return t.patch("/absen-tempat/"+e,a)},show(e){return t.get("absen-tempat/"+e)},destroy(e){return t.delete("/absen-tempat/"+e)}};export{n as a};

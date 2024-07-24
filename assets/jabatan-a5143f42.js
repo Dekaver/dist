@@ -1,0 +1,1 @@
+import{D as t}from"./index-11eb6111.js";const n={index(){return t.get("/jabatan/")},store(a){return t.post("/jabatan/",a)},update(a,e){return t.patch("/jabatan/"+a,e)},show(a){return t.get("/jabatan/"+a)},destroy(a){return t.delete("/jabatan/"+a)}};export{n as a};

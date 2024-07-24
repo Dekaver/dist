@@ -1,0 +1,1 @@
+import{D as a}from"./index-11eb6111.js";const o={index(){return a.get("/kategori-barang/")},store(r){return a.post("/kategori-barang/",r)},update(r,t){return a.patch("/kategori-barang/"+r,t)},show(r){return a.get("/kategori-barang/"+r)},destroy(r){return a.delete("/kategori-barang/"+r)}};export{o as a};

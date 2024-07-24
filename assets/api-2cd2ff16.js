@@ -1,0 +1,1 @@
+import{D as r}from"./index-11eb6111.js";const n={index(){return r.get("/ter/")},store(e){return r.post("/ter/",e)},update(e,t){return r.patch("/ter/"+e,t)},show(e){return r.get("/ter/"+e)},destroy(e){return r.delete("/ter/"+e)}};export{n as a};

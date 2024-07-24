@@ -1,0 +1,1 @@
+import{D as e}from"./index-11eb6111.js";const g={index(){return e.get("/target")},getTarget(t,r){return e.get(`/target/${t}/${r}`)},store(t){return e.post("/target",t)},update(t){return e.patch("/target",t)},delete(t,r){return e.delete(`/target/${t}/${r}`)}};export{g as a};

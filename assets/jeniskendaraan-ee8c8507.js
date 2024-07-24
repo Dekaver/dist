@@ -1,0 +1,1 @@
+import{D as n}from"./index-11eb6111.js";const t={index(){return n.get("/jenis-kendaraan/")},store(e){return n.post("/jenis-kendaraan/",e)},update(e,a){return n.patch("/jenis-kendaraan/"+e,a)},show(e){return n.get("/jenis-kendaraan/"+e)},destroy(e){return n.delete("/jenis-kendaraan/"+e)}};export{t as a};

@@ -1,0 +1,1 @@
+import{D as r}from"./index-11eb6111.js";const t="/proyek",n={index(){return r.get(t)},store(e){return r.post(t,e)},update(e,o){return r.patch(`${t}/${e}`,o)},show(e){return r.get(`${t}/${e}`)},destroy(e){return r.delete(`${t}/${e}`)}};export{n as a};

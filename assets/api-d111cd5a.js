@@ -1,0 +1,1 @@
+import{D as r}from"./index-11eb6111.js";const m={index(){return r.get("/jurnal-umum")},store(u){return r.post("/jurnal-umum/",u)},update(u,t){return r.patch("/jurnal-umum/"+u,t)},show(u){return r.get("/jurnal-umum/"+u)},destroy(u){return r.delete("/jurnal-umum/"+u)}};export{m as a};

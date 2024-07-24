@@ -1,0 +1,1 @@
+import{D as a}from"./index-11eb6111.js";const p={index(){return a.get("/pajak/")},store(e){return a.post("/pajak/",e)},update(e,t){return a.patch("/pajak/"+e,t)},show(e){return a.get("/"+e)},delete(e){return a.delete("/pajak/"+e)}};export{p as a};

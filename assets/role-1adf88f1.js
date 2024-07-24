@@ -1,0 +1,1 @@
+import{D as r}from"./index-11eb6111.js";const s={index(){return r.get("/role/")},store(e){return r.post("/role/",e)},update(e,t){return r.patch("/role/"+e,t)},show(e){return r.get("/role/"+e)},destroy(e){return r.delete("/role/"+e)},attachPermission(e,t){return r.patch(`/role/permission/${e}`,t)}};export{s as a};

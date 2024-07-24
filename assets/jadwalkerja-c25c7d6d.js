@@ -1,0 +1,1 @@
+import{D as e}from"./index-11eb6111.js";const j={index(){return e.get("jadwal-kerja/")},show(a){return e.get("/jadwal-kerja/"+a)},update(a,r){return e.patch("/jadwal-kerja/"+a,r)},delete(a){return e.delete("/jadwal-kerja/"+a)},getPegawai(){return e.get("jadwal-kerja/pegawai-jadwal/")},store(a){return e.post("/jadwal-kerja/",a)}};export{j as a};

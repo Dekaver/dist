@@ -1,0 +1,1 @@
+import{D as a}from"./index-11eb6111.js";const e={index(){return a.get("/uang-muka")},store(u){return a.post("/uang-muka",u)},update(u,r){return a.patch("/uang-muka/"+u,r)},show(u){return a.get("/uang-muka/"+u)},journal(u){return a.get(`/uang-muka/${u}/journal`)},destroy(u){return a.delete("/uang-muka/"+u)},showByPo(u){return a.get("/uang-muka/"+u+"/po")}};export{e as a};

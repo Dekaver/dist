@@ -1,0 +1,1 @@
+import{D as e}from"./index-11eb6111.js";const p={index(){return e.get("/pegawai/")},store(a){return e.post("/pegawai/",a)},update(a,t){return e.patch("/pegawai/"+a,t)},updateFoto(a,t){return e.patch(`/pegawai/${a}/foto`,t)},show(a){return e.get("/pegawai/"+a)},destroy(a){return e.delete("/pegawai/"+a)},available(){return e.get("/pegawai/available")}};export{p as a};
